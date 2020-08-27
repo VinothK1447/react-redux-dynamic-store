@@ -1,5 +1,5 @@
 {
-	"name": "react-redux-dynamic-store",
+	"name": "@vinothk1447/react-redux-dynamic-store",
 	"version": "1.0.0",
 	"description": "Package for creating dynamic modules on Redux store on the fly",
 	"main": "index.js",
@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "\u0016https://github.com/VinothK1447/react-redux-dynamic-store"
+		"url": "https://github.com/VinothK1447/react-redux-dynamic-store"
 	},
 	"keywords": [
 		"React",
@@ -18,7 +18,8 @@
 	"author": "Vinothkumar",
 	"license": "ISC",
 	"publishConfig": {
-		"registry": "https://npm.pkg.github.com/"
+		"registry": "https://npm.pkg.github.com/",
+		"access": "restricted"
 	},
 	"devDependencies": {
 		"react": "^16.13.1",
