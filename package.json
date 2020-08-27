@@ -1,0 +1,26 @@
+{
+	"name": "react-redux-dynamic-store",
+	"version": "1.0.0",
+	"description": "Package for creating dynamic modules on Redux store on the fly",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "\u0016https://github.com/VinothK1447/react-redux-dynamic-store"
+	},
+	"keywords": [
+		"React",
+		"Redux",
+		"DynamicStore"
+	],
+	"author": "Vinothkumar",
+	"license": "ISC",
+	"devDependencies": {
+		"react": "^16.13.1",
+		"react-redux": "^7.2.1",
+		"redux": "^4.0.5",
+		"redux-thunk": "^2.3.0"
+	}
+}
