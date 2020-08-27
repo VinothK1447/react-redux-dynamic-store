@@ -17,6 +17,9 @@
 	],
 	"author": "Vinothkumar",
 	"license": "ISC",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
 	"devDependencies": {
 		"react": "^16.13.1",
 		"react-redux": "^7.2.1",
