@@ -1,6 +1,6 @@
 {
-	"name": "@vinothk1447/react-redux-dynamic-store",
-	"version": "1.0.0",
+	"name": "react-redux-dynamic-store",
+	"version": "1.0.1",
 	"description": "Package for creating dynamic modules on Redux store on the fly",
 	"main": "index.js",
 	"repository": {
@@ -18,8 +18,8 @@
 		"build": "babel src -d lib"
 	},
 	"publishConfig": {
-		"registry": "https://npm.pkg.github.com/",
-		"access": "restricted"
+		"registry": "https://registry.npmjs.org/@vinothkarur/",
+		"access": "public"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.10.5",
