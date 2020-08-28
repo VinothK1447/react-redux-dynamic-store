@@ -3,9 +3,6 @@
 	"version": "1.0.0",
 	"description": "Package for creating dynamic modules on Redux store on the fly",
 	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/VinothK1447/react-redux-dynamic-store"
@@ -17,13 +14,17 @@
 	],
 	"author": "Vinothkumar",
 	"license": "ISC",
+	"scripts": {
+		"build": "babel src -d lib"
+	},
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com/",
 		"access": "restricted"
 	},
 	"devDependencies": {
-		"react": "^16.13.1",
-		"react-redux": "^7.2.1",
+		"@babel/cli": "^7.10.5",
+		"@babel/core": "^7.11.4",
+		"@babel/preset-env": "^7.11.0",
 		"redux": "^4.0.5",
 		"redux-thunk": "^2.3.0"
 	}
